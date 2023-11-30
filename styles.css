@@ -125,3 +125,12 @@ header, footer {
     color: #000;
 }
 
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px; /* Add padding for better visual appeal */
+    background-color: #f8f9fa; /* Add background color to distinguish the footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
