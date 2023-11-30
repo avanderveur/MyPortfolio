@@ -126,3 +126,10 @@ header, footer {
     color: #000;
     text-align: center; /* Add this line to center the text */
 }
+
+/* Footer styles */
+footer {
+    color: #ffffff;
+    text-align: center; /* Add this line to center the text */
+    padding: 20px; /* Adjust padding as needed */
+}
