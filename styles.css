@@ -107,6 +107,7 @@ body {
 /* Header and Footer styles */
 header, footer {
     color: #ffffff;
+    text-align: center; /* Add this line to center the text */
 }
 
 /* Add the following styles to center the contact icons */
@@ -123,14 +124,5 @@ header, footer {
 /* About Me styles */
 #about {
     color: #000;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 10px; /* Add padding for better visual appeal */
-    background-color: #f8f9fa; /* Add background color to distinguish the footer */
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    text-align: center; /* Add this line to center the text */
 }
