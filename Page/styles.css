@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Add margin and adjust font size for navigation links */
+nav a {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #000;
+}
+
+h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* New styles for Projects and Skills sections */
+#projects, #skills, #contact, #misc-projects {
+    margin-top: 40px;
+}
+
+/* Project list style */
+#projects ul, #misc-projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects li, #misc-projects li {
+    margin-bottom: 10px;
+}
+
+/* Skills list style */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Contact info style */
+#contact p {
+    margin: 5px 0;
+}
+
+/* Miscellaneous Projects Section style */
+#misc-projects h2 {
+    color: #000000;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+/* Interactivity */
+a {
+    color: #000000;
+}
+
+/* Smooth scrolling */
+body {
+    scroll-behavior: smooth;
+}
+
+/* Add the following styles to make the icons black */
+.black-icon {
+    color: #000;
+}
+
+/* Header and Footer styles */
+header, footer {
+    color: #ffffff;
+}
+
+/* Add the following styles to center the contact icons */
+#contact {
+    text-align: center;
+    padding: 20px; /* Add padding as needed */
+}
+
+.contact-icons {
+    display: inline-block;
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+/* About Me styles */
+#about {
+    color: #000;
+}
